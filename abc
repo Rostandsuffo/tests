@@ -1,8 +1,0 @@
-
- def _get_connection(self):
-        return ConnectHandler(
-            device_type=self.device_type,
-            host=self.host,
-            port=self.port,
-            username=self.username,
-            password=self.password)
